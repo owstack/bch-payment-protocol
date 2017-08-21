@@ -7,6 +7,10 @@ Btccore Payment Protocol
 
 A module for [btccore](https://github.com/owstack/btccore) that implements [Payment Protocol](https://github.com/bitcoin/bips/blob/master/bip-0070.mediawiki) and other related BIPs.
 
+## Attribution
+
+This repository was created by copy forking [bitcore-payment-protocol commit b086fc6] (https://github.com/bitpay/bitcore-payment-protocol/commit/b086fc64ff8e19230ff4352ef0af9af2837bcc46).
+
 ## Getting Started
 
 This library is distributed in both the npm and bower packaging systems.
