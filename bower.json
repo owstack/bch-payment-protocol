@@ -1,0 +1,30 @@
+{
+  "name": "bcccore-payment-protocol",
+  "main": "./bcccore-payment-protocol.min.js",
+  "version": "1.1.1",
+  "homepage": "https://github.com/owstack/bcccore-payment-protocol",
+  "authors": [
+    "Open Wallet Stack"
+  ],
+  "description": "BIP70 Payment Protocol support for bcccore",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "bitcoin",
+    "bcccore",
+    "bcc",
+    "satoshi"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "CONTRIBUTING.md",
+    "gulpfile.js",
+    "lib",
+    "index.js",
+    "karma.conf.js",
+    "npm-shrinkwrap.json",
+    "test"
+  ]
+}
