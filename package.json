@@ -1,8 +1,7 @@
 {
   "name": "bcccore-payment-protocol",
   "version": "0.0.1",
-  "description": "Payment Protocol (BIP70 and related) support for bcccore",
-  "author": "Open Wallet Stack <dev@openwalletstack.com>",
+  "description": "Payment Protocol (BIP70 and related) support for bcccore.",
   "main": "index.js",
   "scripts": {
     "lint": "gulp lint",
@@ -11,28 +10,6 @@
     "build": "gulp",
     "rootcerts": "node ./update-rootcerts.js"
   },
-  "contributors": [
-    {
-      "name": "Christopher Jeffrey",
-      "email": "chjeffrey@gmail.com"
-    },
-    {
-      "name": "Manuel Araoz",
-      "email": "manuelaraoz@gmail.com"
-    },
-    {
-      "name": "Ryan X. Charles",
-      "email": "ryan@bitpay.com"
-    },
-    {
-      "name": "Linus Unnebäck",
-      "email": "linus@folkdatorn.se"
-    },
-    {
-      "name": "Esteban Ordano",
-      "email": "eordano@gmail.com"
-    }
-  ],
   "keywords": [
     "bitcoin",
     "bcccore"
@@ -44,12 +21,12 @@
   "browser": "lib/browser.js",
   "dependencies": {
     "asn1.js": "=4.5.2",
-    "bcccore-lib": "git://github.com/owstack/bcccore-lib.git#master",
+    "bcccore-lib": "git://github.com/owstack/bcccore-lib.git",
     "jsrsasign": "=5.0.10",
     "protobufjs": "=5.0.1"
   },
   "devDependencies": {
-    "bcccore-build": "git://github.com/owstack/bcccore-build.git#master",
+    "bcccore-build": "git://github.com/owstack/bcccore-build.git",
     "brfs": "^1.2.0",
     "chai": "~1.10.0",
     "gulp": "^3.8.10",
