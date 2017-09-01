@@ -1,6 +1,6 @@
 {
   "name": "bcccore-payment-protocol",
-  "version": "1.2.1",
+  "version": "0.0.1",
   "description": "Payment Protocol (BIP70 and related) support for bcccore",
   "author": "Open Wallet Stack <dev@openwalletstack.com>",
   "main": "index.js",
