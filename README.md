@@ -9,7 +9,7 @@ A module for [btccore](https://github.com/owstack/btccore) that implements [Paym
 
 ## Attribution
 
-This repository was created by copy forking [bitcore-payment-protocol commit b086fc6] (https://github.com/bitpay/bitcore-payment-protocol/commit/b086fc64ff8e19230ff4352ef0af9af2837bcc46).
+This repository was created by copy forking [bitcore-payment-protocol commit b086fc6](https://github.com/bitpay/bitcore-payment-protocol/commit/b086fc64ff8e19230ff4352ef0af9af2837bcc46).
 
 ## Getting Started
 
