@@ -1,7 +1,7 @@
 {
   "name": "btccore-payment-protocol",
   "main": "./btccore-payment-protocol.min.js",
-  "version": "1.1.1",
+  "version": "0.0.1",
   "homepage": "https://github.com/owstack/btccore-payment-protocol",
   "authors": [
     "Open Wallet Stack"
