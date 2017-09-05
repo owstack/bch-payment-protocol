@@ -21,15 +21,15 @@
   "browser": "lib/browser.js",
   "dependencies": {
     "asn1.js": "=4.5.2",
-    "btccore-lib": "git://github.com/owstack/btccore-lib.git#master",
+    "btccore-lib": "git://github.com/owstack/btccore-lib.git",
     "jsrsasign": "=5.0.10",
     "protobufjs": "=5.0.1"
   },
   "devDependencies": {
-    "btccore-build": "git://github.com/owstack/btccore-build.git#master",
     "brfs": "^1.2.0",
     "chai": "~1.10.0",
     "gulp": "^3.8.10",
+    "ows-build": "git://github.com/owstack/ows-build.git",
     "sinon": "^1.17.3"
   },
   "license": "MIT"

@@ -1,5 +1,3 @@
 'use strict';
-
-var gulp_btccore = require('btccore-build');
-
-gulp_btccore('payment-protocol');
+var owsTasks = require('ows-build');
+owsTasks('btccore', 'payment-protocol');
