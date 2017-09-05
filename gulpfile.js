@@ -1,5 +1,3 @@
 'use strict';
-
-var gulp_bcccore = require('bcccore-build');
-
-gulp_bcccore('payment-protocol');
+var owsTasks = require('ows-build');
+owsTasks('bcccore', 'payment-protocol');
