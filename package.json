@@ -26,10 +26,10 @@
     "protobufjs": "=5.0.1"
   },
   "devDependencies": {
-    "bcccore-build": "git://github.com/owstack/bcccore-build.git",
     "brfs": "^1.2.0",
     "chai": "~1.10.0",
     "gulp": "^3.8.10",
+    "ows-build": "git://github.com/owstack/ows-build.git",
     "sinon": "^1.17.3"
   },
   "license": "MIT"
