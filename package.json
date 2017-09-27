@@ -21,7 +21,7 @@
   "browser": "lib/browser.js",
   "dependencies": {
     "asn1.js": "=4.5.2",
-    "bcccore-lib": "git://github.com/owstack/bcccore-lib.git",
+    "bcccore-lib": "http://github.com/owstack/bcccore-lib",
     "jsrsasign": "=5.0.10",
     "protobufjs": "=5.0.1"
   },
@@ -29,7 +29,7 @@
     "brfs": "^1.2.0",
     "chai": "~1.10.0",
     "gulp": "^3.8.10",
-    "ows-build": "git://github.com/owstack/ows-build.git",
+    "ows-build": "http://github.com/owstack/ows-build",
     "sinon": "^1.17.3"
   },
   "license": "MIT"
