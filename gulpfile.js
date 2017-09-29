@@ -1,3 +1,3 @@
 'use strict';
 var owsTasks = require('ows-build');
-owsTasks('btccore', 'payment-protocol');
+owsTasks('btc', 'payment-protocol');

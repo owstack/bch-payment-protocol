@@ -7,22 +7,22 @@ Payment protocol is implemented as a separate module and you must add it to your
 For node projects:
 
 ```
-npm install btccore-lib --save
-npm install btccore-payment-protocol --save
+npm install btc-lib --save
+npm install btc-payment-protocol --save
 ```
 
 For client-side projects:
 
 ```
-bower install btccore-lib --save
-bower install btccore-payment-protocol --save
+bower install btc-lib --save
+bower install btc-payment-protocol --save
 ```
 
 ## Make Payment Details
 Here the merchant's server will construct the payment details message:
 
 ```javascript
-var PaymentProtocol = require('btccore-payment-protocol');
+var PaymentProtocol = require('btc-payment-protocol');
 var now = Date.now() / 1000 | 0;
 
 // construct the payment details

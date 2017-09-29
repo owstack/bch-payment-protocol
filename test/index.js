@@ -4,9 +4,9 @@ var chai = require('chai');
 var sinon = require('sinon');
 var should = chai.should();
 var expect = chai.expect;
-var btccore = require('btccore-lib');
-var PrivateKey = btccore.PrivateKey;
-var PublicKey = btccore.PublicKey;
+var btcLib = require('btc-lib');
+var PrivateKey = btcLib.PrivateKey;
+var PublicKey = btcLib.PublicKey;
 
 var is_browser = process.browser;
 
