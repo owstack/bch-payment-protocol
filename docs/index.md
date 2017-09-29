@@ -7,22 +7,22 @@ Payment protocol is implemented as a separate module and you must add it to your
 For node projects:
 
 ```
-npm install bcccore-lib --save
-npm install bcccore-payment-protocol --save
+npm install bch-lib --save
+npm install bch-payment-protocol --save
 ```
 
 For client-side projects:
 
 ```
-bower install bcccore-lib --save
-bower install bcccore-payment-protocol --save
+bower install bch-lib --save
+bower install bch-payment-protocol --save
 ```
 
 ## Make Payment Details
 Here the merchant's server will construct the payment details message:
 
 ```javascript
-var PaymentProtocol = require('bcccore-payment-protocol');
+var PaymentProtocol = require('bch-payment-protocol');
 var now = Date.now() / 1000 | 0;
 
 // construct the payment details

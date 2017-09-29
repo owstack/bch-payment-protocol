@@ -4,9 +4,9 @@ var chai = require('chai');
 var sinon = require('sinon');
 var should = chai.should();
 var expect = chai.expect;
-var bcccore = require('bcccore-lib');
-var PrivateKey = bcccore.PrivateKey;
-var PublicKey = bcccore.PublicKey;
+var bchLib = require('bch-lib');
+var PrivateKey = bchLib.PrivateKey;
+var PublicKey = bchLib.PublicKey;
 
 var is_browser = process.browser;
 
