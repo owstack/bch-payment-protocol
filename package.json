@@ -20,17 +20,17 @@
   },
   "browser": "lib/browser.js",
   "dependencies": {
-    "asn1.js": "=4.5.2",
+    "asn1.js": "4.9.1",
     "bch-lib": "https://github.com/owstack/bch-lib",
-    "jsrsasign": "=5.0.10",
-    "protobufjs": "=5.0.1"
+    "jsrsasign": "8.0.4",
+    "protobufjs": "6.8.0"
   },
   "devDependencies": {
     "brfs": "^1.2.0",
-    "chai": "~1.10.0",
+    "chai": "~4.1.2",
     "gulp": "^3.8.10",
     "ows-build": "https://github.com/owstack/ows-build",
-    "sinon": "^1.17.3"
+    "sinon": "^4.0.0"
   },
   "license": "MIT"
 }
