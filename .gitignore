@@ -1,8 +1,8 @@
 *.sw[a-z]
 coverage
 node_modules
-btc-payment-protocol.js
-btc-payment-protocol.min.js
+bch-payment-protocol.js
+bch-payment-protocol.min.js
 tests.js
 
 lib/errors/index.js

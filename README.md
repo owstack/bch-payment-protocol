@@ -1,34 +1,30 @@
-Btc Payment Protocol
+Bch Payment Protocol
 =======
 
-[![NPM Package](https://img.shields.io/npm/v/btc-payment-protocol.svg?style=flat-square)](https://www.npmjs.org/package/btc-payment-protocol)
-[![Build Status](https://img.shields.io/travis/owstack/btc-payment-protocol.svg?branch=master&style=flat-square)](https://travis-ci.org/owstack/btc-payment-protocol)
-[![Coverage Status](https://img.shields.io/coveralls/owstack/btc-payment-protocol.svg?style=flat-square)](https://coveralls.io/r/owstack/btc-payment-protocol)
+[![NPM Package](https://img.shields.io/npm/v/bch-payment-protocol.svg?style=flat-square)](https://www.npmjs.org/package/bch-payment-protocol)
+[![Build Status](https://img.shields.io/travis/owstack/bch-payment-protocol.svg?branch=master&style=flat-square)](https://travis-ci.org/owstack/bch-payment-protocol)
+[![Coverage Status](https://img.shields.io/coveralls/owstack/bch-payment-protocol.svg?style=flat-square)](https://coveralls.io/r/owstack/bch-payment-protocol)
 
-A module for [btc](https://github.com/owstack/btc) that implements [Payment Protocol](https://github.com/bitcoin/bips/blob/master/bip-0070.mediawiki) and other related BIPs.
-
-## Attribution
-
-This repository was created by copy forking [bitcore-payment-protocol commit b086fc6](https://github.com/bitpay/bitcore-payment-protocol/commit/b086fc64ff8e19230ff4352ef0af9af2837bcc46).
+A module for [bch](https://github.com/owstack/bch) that implements [Payment Protocol](https://github.com/bitcoin/bips/blob/master/bip-0070.mediawiki) and other related BIPs.
 
 ## Getting Started
 
 This library is distributed in both the npm and bower packaging systems.
 
 ```sh
-npm install btc-lib
-npm install btc-payment-protocol
+npm install bch-lib
+npm install bch-payment-protocol
 ```
 
 ```sh
-bower install btc-lib
-bower install btc-payment-protocol
+bower install bch-lib
+bower install bch-payment-protocol
 ```
 
-There are many examples of how to use it on the developer guide [section for payment protocol](https://btc.io/api/paypro). For example, the following code would verify a payment request:
+There are many examples of how to use it on the developer guide [section for payment protocol](https://bch.io/api/paypro). For example, the following code would verify a payment request:
 
 ```javascript
-var PaymentProtocol = require('btc-payment-protocol');
+var PaymentProtocol = require('bch-payment-protocol');
 
 var body = PaymentProtocol.PaymentRequest.decode(rawbody);
 var request = new PaymentProtocol().makePaymentRequest(body);
@@ -45,10 +41,10 @@ var verified = request.verify();
 
 ## Contributing
 
-See [CONTRIBUTING.md](https://github.com/owstack/btc-lib/blob/master/CONTRIBUTING.md) on the main btc-lib repo for information about how to contribute.
+See [CONTRIBUTING.md](https://github.com/owstack/bch-lib/blob/master/CONTRIBUTING.md) on the main bch-lib repo for information about how to contribute.
 
 ## License
 
-Code released under [the MIT license](https://github.com/owstack/btc-lib/blob/master/LICENSE).
+Code released under [the MIT license](https://github.com/owstack/bch-lib/blob/master/LICENSE).
 
 Copyright 2017 Open Wallet Stack.

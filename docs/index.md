@@ -7,22 +7,22 @@ Payment protocol is implemented as a separate module and you must add it to your
 For node projects:
 
 ```
-npm install btc-lib --save
-npm install btc-payment-protocol --save
+npm install bch-lib --save
+npm install bch-payment-protocol --save
 ```
 
 For client-side projects:
 
 ```
-bower install btc-lib --save
-bower install btc-payment-protocol --save
+bower install bch-lib --save
+bower install bch-payment-protocol --save
 ```
 
 ## Make Payment Details
 Here the merchant's server will construct the payment details message:
 
 ```javascript
-var PaymentProtocol = require('btc-payment-protocol');
+var PaymentProtocol = require('bch-payment-protocol');
 var now = Date.now() / 1000 | 0;
 
 // construct the payment details
@@ -141,7 +141,7 @@ var transactions = payment.get('transactions');
 var refund_to = payment.get('refund_to');
 var memo = payment.get('memo');
 
-// send the transaction to the bitcoin network
+// send the transaction to the bitcoin cash network
 ```
 
 ## Send a Payment Acknowledgement

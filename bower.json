@@ -1,16 +1,15 @@
 {
-  "name": "btc-payment-protocol",
-  "main": "./btc-payment-protocol.min.js",
+  "name": "bch-payment-protocol",
+  "main": "./bch-payment-protocol.min.js",
   "version": "0.0.1",
-  "homepage": "https://github.com/owstack/btc-payment-protocol",
-  "description": "Payment Protocol (BIP70 and related) support for btc.",
+  "homepage": "https://github.com/owstack/bch-payment-protocol",
+  "description": "Payment Protocol (BIP70 and related) support for bch.",
   "moduleType": [
     "globals"
   ],
   "keywords": [
-    "bitcoin",
-    "btc",
-    "btc",
+    "bitcoin cash",
+    "bch",
     "satoshi"
   ],
   "license": "MIT",
