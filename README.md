@@ -45,10 +45,10 @@ var verified = request.verify();
 
 ## Contributing
 
-See [CONTRIBUTING.md](https://github.com/owstack/btc/blob/master/CONTRIBUTING.md) on the main btc repo for information about how to contribute.
+See [CONTRIBUTING.md](https://github.com/owstack/btc-lib/blob/master/CONTRIBUTING.md) on the main btc-lib repo for information about how to contribute.
 
 ## License
 
-Code released under [the MIT license](https://github.com/owstack/btc/blob/master/LICENSE).
+Code released under [the MIT license](https://github.com/owstack/btc-lib/blob/master/LICENSE).
 
 Copyright 2017 Open Wallet Stack.
