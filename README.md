@@ -24,7 +24,7 @@ bower install bch-payment-protocol
 There are many examples of how to use it on the developer guide [section for payment protocol](https://bch.io/api/paypro). For example, the following code would verify a payment request:
 
 ```javascript
-var PaymentProtocol = require('bch-payment-protocol');
+var PaymentProtocol = require('@owstack/bch-payment-protocol');
 
 var body = PaymentProtocol.PaymentRequest.decode(rawbody);
 var request = new PaymentProtocol().makePaymentRequest(body);

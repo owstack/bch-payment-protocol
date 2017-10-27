@@ -22,7 +22,7 @@ bower install bch-payment-protocol --save
 Here the merchant's server will construct the payment details message:
 
 ```javascript
-var PaymentProtocol = require('bch-payment-protocol');
+var PaymentProtocol = require('@owstack/bch-payment-protocol');
 var now = Date.now() / 1000 | 0;
 
 // construct the payment details
