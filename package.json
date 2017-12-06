@@ -1,6 +1,6 @@
 {
   "name": "@owstack/bch-payment-protocol",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "description": "Payment Protocol (BIP70 and related) support for bch.",
   "main": "index.js",
   "scripts": {
@@ -22,7 +22,7 @@
   },
   "browser": "lib/browser.js",
   "dependencies": {
-    "@owstack/bch-lib": "^0.0.3",
+    "@owstack/bch-lib": "^0.0.5",
     "asn1.js": "=4.9.1",
     "asn1.js-rfc3280": "=4.0.0",
     "asn1.js-rfc5280": "=2.0.0",
