@@ -19,11 +19,14 @@ function getRootCerts(callback) {
     // Delete preprocesor macros
     body = body.replace(/#[^\n]+/g, '');
 
+
+
     // Delete the trailing comma
     body = body.replace(/,\s*$/, '');
 
     // Make sure each C string is concatenated
     body = body.replace(/"\r?\n"/g, '');
+
 
     // Make sue we turn the cert names into property names
     body = body.replace(/\/\*([^*]+)\*\/\n(?=")/g, function(_, name) {
@@ -34,6 +37,7 @@ function getRootCerts(callback) {
     // Delete Comments
     body = body.replace(/\/\* tools\/\.\.\/src[^\0]+?\*\//, '');
     body = body.replace(/\/\* @\(#\)[^\n]+/, '');
+
 
     // \xff -> \u00ff
     body = body.replace(/\\x([0-9a-fA-F]{2})/g, '\\u00$1');
